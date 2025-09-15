@@ -9,9 +9,9 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@/components/ui/dialog';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
-import { useLayoutMaxWidth } from 'hooks/useLayoutMaxWidth';
+import { useLayoutMaxWidth } from '@/hooks/useLayoutMaxWidth';
 
 export default function ReadmeButton() {
   const { config } = useConfig();

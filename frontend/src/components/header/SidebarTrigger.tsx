@@ -5,7 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger
 } from '@/components/ui/tooltip';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 import { Sidebar } from '../icons/Sidebar';
 import { useSidebar } from '../ui/sidebar';

@@ -15,13 +15,13 @@ import {
 
 import Alert from '@/components/Alert';
 import { TaskList } from '@/components/Tasklist';
-import { Translator } from 'components/i18n';
-import { useTranslation } from 'components/i18n/Translator';
+import { Translator } from '@/components/i18n';
+import { useTranslation } from '@/components/i18n/Translator';
 
 import { useUpload } from '@/hooks/useUpload';
-import { useLayoutMaxWidth } from 'hooks/useLayoutMaxWidth';
+import { useLayoutMaxWidth } from '@/hooks/useLayoutMaxWidth';
 
-import { IAttachment, attachmentsState } from 'state/chat';
+import { IAttachment, attachmentsState } from '@/state/chat';
 
 import { ErrorBoundary } from '../ErrorBoundary';
 import ChatFooter from './Footer';

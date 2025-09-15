@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { MessageContext } from 'contexts/MessageContext';
+import { MessageContext } from '@/contexts/MessageContext';
 import { memo, useContext, useRef } from 'react';
 
 import {
@@ -8,7 +8,7 @@ import {
   type IStep
 } from '@chainlit/react-client';
 
-import { useLayoutMaxWidth } from 'hooks/useLayoutMaxWidth';
+import { useLayoutMaxWidth } from '@/hooks/useLayoutMaxWidth';
 
 import { Messages } from '..';
 import { AskActionButtons } from './AskActionButtons';

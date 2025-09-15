@@ -1,4 +1,4 @@
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 export default function WaterMark() {
   return (

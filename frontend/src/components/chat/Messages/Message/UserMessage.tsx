@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { MessageContext } from 'contexts/MessageContext';
+import { MessageContext } from '@/contexts/MessageContext';
 import { useContext, useMemo, useState } from 'react';
 import { useSetRecoilState } from 'recoil';
 
@@ -13,7 +13,7 @@ import {
 import AutoResizeTextarea from '@/components/AutoResizeTextarea';
 import { Pencil } from '@/components/icons/Pencil';
 import { Button } from '@/components/ui/button';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 import { InlinedElements } from './Content/InlinedElements';
 

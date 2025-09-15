@@ -19,7 +19,7 @@ import {
 } from '@chainlit/react-client';
 
 import { Messages } from '@/components/chat/Messages';
-import { useTranslation } from 'components/i18n/Translator';
+import { useTranslation } from '@/components/i18n/Translator';
 
 interface Props {
   navigate?: (to: string) => void;

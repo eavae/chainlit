@@ -19,7 +19,7 @@ import {
   useConfig
 } from '@chainlit/react-client';
 
-import { useLayoutMaxWidth } from 'hooks/useLayoutMaxWidth';
+import { useLayoutMaxWidth } from '@/hooks/useLayoutMaxWidth';
 
 import { ErrorBoundary } from './ErrorBoundary';
 import { Loader } from './Loader';

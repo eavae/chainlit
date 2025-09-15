@@ -13,7 +13,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 export default function UserNav() {
   const { user, logout } = useAuth();

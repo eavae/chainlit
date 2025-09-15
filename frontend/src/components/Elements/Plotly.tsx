@@ -3,9 +3,9 @@ import { Suspense, lazy } from 'react';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { Skeleton } from '@/components/ui/skeleton';
 
-import { useFetch } from 'hooks/useFetch';
+import { useFetch } from '@/hooks/useFetch';
 
-import { type IPlotlyElement } from 'client-types/';
+import { type IPlotlyElement } from '@chainlit/react-client';
 
 const Plot = lazy(() => import('react-plotly.js'));
 

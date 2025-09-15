@@ -12,14 +12,14 @@ import {
 
 import { Settings } from '@/components/icons/Settings';
 import { Button } from '@/components/ui/button';
-import { useTranslation } from 'components/i18n/Translator';
+import { useTranslation } from '@/components/i18n/Translator';
 
 import { chatSettingsOpenState } from '@/state/project';
 import {
   IAttachment,
   attachmentsState,
   persistentCommandState
-} from 'state/chat';
+} from '@/state/chat';
 
 import { Attachments } from './Attachments';
 import CommandButtons from './CommandButtons';

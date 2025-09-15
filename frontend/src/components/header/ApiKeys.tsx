@@ -10,7 +10,7 @@ import {
   TooltipProvider,
   TooltipTrigger
 } from '@/components/ui/tooltip';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 export default function ApiKeys() {
   const { config } = useConfig();

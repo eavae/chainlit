@@ -26,7 +26,7 @@ import {
   TooltipProvider,
   TooltipTrigger
 } from '@/components/ui/tooltip';
-import { useTranslation } from 'components/i18n/Translator';
+import { useTranslation } from '@/components/i18n/Translator';
 
 import { useCommandNavigation } from '@/hooks/useCommandNavigation';
 

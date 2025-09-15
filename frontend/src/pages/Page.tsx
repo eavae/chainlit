@@ -10,7 +10,7 @@ import { Header } from '@/components/header';
 import { ResizablePanel, ResizablePanelGroup } from '@/components/ui/resizable';
 import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
 
-import { userEnvState } from 'state/user';
+import { userEnvState } from '@/state/user';
 
 type Props = {
   children: JSX.Element;

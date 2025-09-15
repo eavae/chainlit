@@ -1,4 +1,4 @@
-import { MessageContext } from 'contexts/MessageContext';
+import { MessageContext } from '@/contexts/MessageContext';
 import React, { memo, useContext } from 'react';
 
 import {

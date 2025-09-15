@@ -10,7 +10,7 @@ import {
   TooltipProvider,
   TooltipTrigger
 } from '@/components/ui/tooltip';
-import { Translator } from 'components/i18n';
+import { Translator } from '@/components/i18n';
 
 import { Loader } from '../../Loader';
 import { VoiceLines } from '../../icons/VoiceLines';
