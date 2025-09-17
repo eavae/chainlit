@@ -176,9 +176,9 @@ const Chat = () => {
       user &&
       config?.dataPersistence &&
       threadId &&
-      currentPage.pathname === '/'
+      currentPage.pathname === '/model/conversation'
     ) {
-      navigate(`/thread/${threadId}`);
+      navigate(`/model/conversation/${threadId}`);
     } else {
       setThreads((prev) => ({
         ...prev,

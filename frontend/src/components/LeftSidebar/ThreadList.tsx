@@ -325,7 +325,7 @@ export function ThreadList({
                       >
                         <Tooltip>
                           <TooltipTrigger asChild>
-                            <Link to={isResumed ? '' : `/thread/${thread.id}`}>
+                            <Link to={isResumed ? '' : `/model/conversation/${thread.id}`}>
                               <SidebarMenuButton
                                 isActive={isSelected}
                                 className="relative truncate h-9 group/thread"

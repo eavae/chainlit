@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ChainlitContext } from 'src/index';
+import { ChainlitContext } from '../../../context';
 
 import { useAuthState } from './state';
 

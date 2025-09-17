@@ -1,6 +1,6 @@
 import { useContext, useMemo } from 'react';
-import { ChainlitAPI } from 'src/api';
-import { ChainlitContext } from 'src/context';
+import { ChainlitAPI } from '../../api';
+import { ChainlitContext } from '../../context';
 import useSWR, { SWRConfig, SWRConfiguration } from 'swr';
 
 import { useAuthState } from './auth/state';

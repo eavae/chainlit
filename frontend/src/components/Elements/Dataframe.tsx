@@ -30,7 +30,7 @@ import {
   TableRow
 } from '@/components/ui/table';
 
-import { useFetch } from 'hooks/useFetch';
+import { useFetch } from '@/hooks/useFetch';
 
 interface DataframeData {
   index: (string | number)[];

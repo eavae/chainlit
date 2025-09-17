@@ -16,9 +16,9 @@ import {
   tasklistState,
   threadIdToResumeState,
   tokenCountState
-} from 'src/state';
-import { IFileRef, IStep } from 'src/types';
-import { addMessage } from 'src/utils/message';
+} from './state';
+import { IFileRef, IStep } from './types';
+import { addMessage } from './utils/message';
 import { v4 as uuidv4 } from 'uuid';
 
 import { ChainlitContext } from './context';

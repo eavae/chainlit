@@ -33,7 +33,7 @@ import {
   tokenCountState,
   wavRecorderState,
   wavStreamPlayerState
-} from 'src/state';
+} from './state';
 import {
   IAction,
   ICommand,
@@ -42,13 +42,13 @@ import {
   IStep,
   ITasklistElement,
   IThread
-} from 'src/types';
+} from './types';
 import {
   addMessage,
   deleteMessageById,
   updateMessageById,
   updateMessageContentById
-} from 'src/utils/message';
+} from './utils/message';
 
 import { OutputAudioChunk } from './types/audio';
 
@@ -243,7 +243,7 @@ const useChatSession = () => {
       socket.on('resume_thread', (thread: IThread) => {
         const isReadOnlyView = Boolean((thread as any)?.metadata?.viewer_read_only);
         if (!isReadOnlyView && idToResume && thread.id !== idToResume) {
-          window.location.href = `/thread/${thread.id}`;
+          window.location.href = `/model/conversation/${thread.id}`;
         }
         if (!isReadOnlyView && idToResume) {
           setCurrentThreadId(thread.id);
